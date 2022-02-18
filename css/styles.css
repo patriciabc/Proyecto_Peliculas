@@ -1,0 +1,137 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(
+        90deg,
+        rgba(5,72,82,1) 0%,
+        rgba(8,39,79,1) 50%,
+        rgba(51,47,83,1) 100%
+    );
+    margin: 0 auto;
+    padding: 0 6px;
+    height:100vh ;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor{    
+    display: flex;    
+    flex-wrap: wrap;
+    padding-top: 100px;
+    justify-content: center;
+}
+
+img{
+    width: 100%;
+}
+
+.c-card{
+    display: flex;
+    padding: 20px;
+}
+
+.card {
+    max-width: 500px;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: #1a1a1ae3;
+    box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0, 0, 0, 0.22);    
+}
+
+.card_banner{
+    position: relative;
+}
+
+.card_banner img{
+    display: block;
+}
+.background{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.795);
+    display: flex;
+    align-items: center;
+}
+
+.c-background{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 35px;
+    width: 100%;
+}
+
+.card_poster img{
+    max-width: 130px;
+    border-radius: 5px;
+}
+
+.card_banner_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:  0px 0px 20px 0px;
+    text-align: right;
+}
+._content-title{
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #f3f3f3;
+    margin-bottom: 0;
+}
+._content-subtitle{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #d8d8d8;
+    margin: 0;
+}
+
+._content-tag{
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: 400;
+    color: #d8d8d8;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+._content-popularidad{
+    margin-top: 20px;
+    font-size: 1rem;
+    font-weight: 900;
+    line-height: 45px;
+    text-align: center;
+    border: 3px solid #04AA6D;
+    color: #d8d8d8;    
+    background-color:rgba(31.5, 31.5, 31.5, 1) ;
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+}
+
+
+
+.c-card_descripcion{
+    display: flex;    
+    flex-direction: column;
+    padding: 20px 30px;
+    
+}
+
+.card_descripcion_texto h1{
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #acacac;
+    margin: 0;
+    border-bottom: 1px solid #4d4d4d;
+}
+
+.card_descripcion_texto p{
+    font-size: 0.9rem;
+    font-style: italic;
+    text-align: justify;
+    color: #a1a1a1;
+}

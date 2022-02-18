@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Busqueda de Películas</title>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/principal.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!--Header - menu-->
+    <header>
+
+        <div class="header-content">
+            <div class="logo">
+                <h1>Patricia<b>Movie</b></h1>
+            </div>
+            <div class="menu" id="show-menu">
+                <nav>
+                    <ul>
+                        <li><a href="#"> <i class="fas fa-home"></i> Inicio</a></li>
+                        <li><a href="#"> <i class="fab fa-youtube"> </i>Series</a></li>
+                        <li class="menu-selected"><a href="index.html" class="text-menu-selected"> 
+                            <i class="fas fa-file-alt"></i>Películas</a></li>
+                        <li><a href="#"> <i class="fas fa-headset"></i> Próximos estrenos</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+
+            <div id="ctn-icon-search">
+                <i class="fas fa-search" id="icon-search" onclick="mostrar_buscador()"></i>
+            </div>
+
+        </div>
+
+        <div id="icon-menu">
+            <i class="fas fa-bars"></i>
+        </div>
+
+    </header>
+
+    
+
+    <!--Buscador-->
+
+    <div id="ctn-bars-search">
+        <input type="text" id="txtPelicula" placeholder="¿Que películas deseas?">
+    </div>
+
+    
+    <div id="cover-ctn-search" onclick="ocultar_buscador()">        
+    </div>
+    
+    <div id="contenedor" class="contenedor">        
+    </div>
+
+    <script src="js/script.js"></script>
+
+
+</body>
+</html>
